@@ -1,0 +1,10 @@
+Name: ComplicatedElements
+Version: 0.0.1
+Icon: ce_icon
+Desc: Introduces the Glyph of Binding, which allows you to bind atoms together and get new compounds!
+DLL: "ComplicatedElements.dll"
+Dependences:
+- Name: Quintessential
+  Version: 0.5.1
+- Name: Brimstone
+  Version: 1.4.1
