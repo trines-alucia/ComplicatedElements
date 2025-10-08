@@ -22,7 +22,8 @@ public class ComplicatedElements : QuintessentialMod
     {
         Quintessential.Logger.Log("ComplicatedElements: Loading!");
         ComplicatedElementsAtoms.AddAtomTypes();
-        //QApi.AddPuzzlePermission(CrystalPermission, "Glyph of Crystallization", "Complicated Elements");
+        ComplicatedElementsParts.AddPartTypes();
+        QApi.AddPuzzlePermission("ComplicatedElements: crystallization", "Glyph of Crystallization", "Complicated Elements");
         Quintessential.Logger.Log("Loading complete, yay!");
     }
 }
