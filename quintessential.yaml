@@ -1,10 +1,13 @@
 Name: ComplicatedElements
-Version: 1.1.0
+Version: 1.2.2
 Icon: ce_icon
-Desc: Introduces the Glyph of Binding, which allows you to bind atoms together and get new compounds!
+Desc: Introduces the Glyph of Fusion, which allows you to fuse cardinal atoms together to get new crystal atoms based on their type.
 DLL: "ComplicatedElements.dll"
 Dependences:
 - Name: Quintessential
   Version: 0.5.1
 - Name: Brimstone
-  Version: 1.4.1
+  Version: 1.4.2
+OptionalDependencies:
+- Name: HalvingMetallurgy
+  Version: 4.0.0

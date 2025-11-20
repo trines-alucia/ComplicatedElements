@@ -5,42 +5,68 @@ namespace ComplicatedElements;
 
 public static class ComplicatedElementsAtoms
 {
-    public static AtomType Amethyst, Citrine, Azurine;
+    public static AtomType Vaprorine, Pyrolite, Aerolith, Mistaline, Ignistal, Terramarine, Quicklime;
 
     public static void AddAtomTypes()
     {
-        Amethyst = Brimstone.API.CreateCardinalAtom(
+        Vaprorine = Brimstone.API.CreateNormalAtom(
             ID: 150, 
             modName: "ComplicatedElements",
-            name: "Amethyst",
-            pathToSymbol: "textures/atoms/alucia/ComplicatedElements/cardinals/amethyst_symbol",
-            pathToBase: "textures/atoms/alucia/ComplicatedElements/cardinals/amethyst_base",
-            pathToFog: "textures/atoms/alucia/ComplicatedElements/cardinals/amethyst_fog",
-            pathToRim: "textures/atoms/alucia/ComplicatedElements/cardinals/atom_rim",
-            pathToShadow: "textures/atoms/alucia/ComplicatedElements/cardinals/amethyst_shadow"
+            name: "Vaprorine",
+            pathToSymbol: "textures/atoms/alucia/ComplicatedElements/Normals/Ignistal_symbol",
+            pathToDiffuse: "textures/atoms/alucia/ComplicatedElements/Normals/Vaprorine_diffuse"
         );
-        Citrine = Brimstone.API.CreateCardinalAtom(
+        Pyrolite = Brimstone.API.CreateNormalAtom(
             ID: 151, 
             modName: "ComplicatedElements",
-            name: "Citrine",
-            pathToSymbol: "textures/atoms/alucia/ComplicatedElements/cardinals/citrine_symbol",
-            pathToBase: "textures/atoms/alucia/ComplicatedElements/cardinals/citrine_base",
-            pathToFog: "textures/atoms/alucia/ComplicatedElements/cardinals/nam_atom_fog",
-            pathToRim: "textures/atoms/alucia/ComplicatedElements/cardinals/atom_rim",
-            pathToShadow: "textures/atoms/alucia/ComplicatedElements/cardinals/citrine_shadow"
+            name: "Pyrolite",
+            pathToSymbol: "textures/atoms/alucia/ComplicatedElements/Normals/Ignistal_symbol",
+            pathToDiffuse: "textures/atoms/alucia/ComplicatedElements/Normals/Pyrolite_diffuse"
         );
-        Azurine = Brimstone.API.CreateCardinalAtom(
+        Aerolith = Brimstone.API.CreateNormalAtom(
             ID: 152, 
             modName: "ComplicatedElements",
-            name: "Azurine",
-            pathToSymbol: "textures/atoms/alucia/ComplicatedElements/cardinals/azurine_symbol",
-            pathToBase: "textures/atoms/alucia/ComplicatedElements/cardinals/azurine_base",
-            pathToFog: "textures/atoms/alucia/ComplicatedElements/cardinals/nam_atom_fog",
-            pathToRim: "textures/atoms/alucia/ComplicatedElements/cardinals/atom_rim",
-            pathToShadow: "textures/atoms/alucia/ComplicatedElements/cardinals/azurine_shadow"
+            name: "Aerolith",
+            pathToSymbol: "textures/atoms/alucia/ComplicatedElements/Normals/Ignistal_symbol",
+            pathToDiffuse: "textures/atoms/alucia/ComplicatedElements/Normals/Aerolith_diffuse"
         );
-        QApi.AddAtomType(Amethyst);
-        QApi.AddAtomType(Citrine);
-        QApi.AddAtomType(Azurine);
+        Mistaline = Brimstone.API.CreateNormalAtom(
+            ID: 153, 
+            modName: "ComplicatedElements",
+            name: "Mistaline",
+            pathToSymbol: "textures/atoms/alucia/ComplicatedElements/Normals/Ignistal_symbol",
+            pathToDiffuse: "textures/atoms/alucia/ComplicatedElements/Normals/Mistaline_diffuse"
+        );
+        Ignistal = Brimstone.API.CreateNormalAtom(
+            ID: 154, 
+            modName: "ComplicatedElements",
+            name: "Ignistal",
+            pathToSymbol: "textures/atoms/alucia/ComplicatedElements/Normals/Ignistal_symbol",
+            pathToDiffuse: "textures/atoms/alucia/ComplicatedElements/Normals/Ignistal_diffuse"
+        );
+        Terramarine = Brimstone.API.CreateNormalAtom(
+            ID: 155, 
+            modName: "ComplicatedElements",
+            name: "Terramarine",
+            pathToSymbol: "textures/atoms/alucia/ComplicatedElements/Normals/Ignistal_symbol",
+            pathToDiffuse: "textures/atoms/alucia/ComplicatedElements/Normals/Terramarine_diffuse"
+        );
+        Quicklime = Brimstone.API.CreateNormalAtom(
+            ID: 132, 
+            modName: "HalvingMetallurgy",
+            name: "Quicklime",
+            pathToSymbol: "textures/atoms/erikhaag/HalvingMetallurgy/quicklime_symbol",
+            pathToDiffuse: "textures/atoms/erikhaag/HalvingMetallurgy/quicklime_diffuse"
+        );
+        QApi.AddAtomType(Vaprorine);
+        QApi.AddAtomType(Pyrolite);
+        QApi.AddAtomType(Aerolith);
+        QApi.AddAtomType(Mistaline);
+        QApi.AddAtomType(Ignistal);
+        QApi.AddAtomType(Terramarine);
+        if (!ComplicatedElements.HalvingMetallurgyLoaded)
+        {
+            QApi.AddAtomType(Quicklime);
+        }
     }
 }
