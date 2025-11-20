@@ -114,7 +114,7 @@ internal static class ComplicatedElementsParts
                     {
                         if (!qs1.field_2281 && !qs1.field_2282) // if qs not grabbed and single
                         {
-                            foreach (ComplicatedElementsAPI.CrystallizationRecipe r in ComplicatedElementsAPI.crystalTransmutations) //// thanks to ErikHaag for helping me with this
+                            foreach (ComplicatedElementsAPI.CrystallizationRecipe r in ComplicatedElementsAPI.crystalTransmutations) // thank you Greenfield for helping me with this
                             {
                                 if (r.IsMatch(gold.field_2280, qs1.field_2280))
                                 {
@@ -124,7 +124,7 @@ internal static class ComplicatedElementsParts
                                     gold.field_2279.field_2276 = new class_168(seb, 0, (enum_132)1, gold.field_2280, class_238.field_1989.field_81.field_614, 30f); //animation 2
                                     break;
                                 }
-                                else if (r.IsMatch(qs1.field_2280, gold.field_2280)) // attempt at a reverse order check
+                                else if (r.IsMatch(qs1.field_2280, gold.field_2280)) // my attempt at a reverse order check, which actually worked
                                 {
                                     gold.field_2277.method_1106(r.output, gold.field_2278); //transform
                                     qs1.field_2277.method_1107(qs1.field_2278); //remove
@@ -155,4 +155,5 @@ internal static class ComplicatedElementsParts
             }
         });
     }
+
 }
