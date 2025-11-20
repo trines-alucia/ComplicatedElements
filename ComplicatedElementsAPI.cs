@@ -24,7 +24,7 @@ public static class ComplicatedElementsAPI
         public AtomType reagent;
         public AtomType output;
     }
-    public struct ErosionAtoms // thanks to ErikHaag for helping me with this
+    public struct ErosionAtoms
     {
         public ErosionAtoms(AtomType input, AtomType output)
         {
@@ -69,3 +69,4 @@ public static class ComplicatedElementsAPI
     }
 
 }
+
