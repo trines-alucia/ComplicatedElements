@@ -46,7 +46,7 @@ public static class ComplicatedElementsAPI
     public static List<ErosionAtoms> ErosionAtomsList = new(); // Input, Output
 
     public static void AddTransmutations()
-    { // 76: air, 77: earth, 78: fire, 79: water, 90: quintessence.
+    { //76: air, 77: earth, 78: fire, 79: water, 90: quintessence.
         crystalTransmutations.Add(new(AtomTypes.field_1676, AtomTypes.field_1677, ComplicatedElementsAtoms.Aerolith));
         crystalTransmutations.Add(new(AtomTypes.field_1676, AtomTypes.field_1678, ComplicatedElementsAtoms.Ignistal));
         crystalTransmutations.Add(new(AtomTypes.field_1676, AtomTypes.field_1679, ComplicatedElementsAtoms.Mistaline));
@@ -67,6 +67,4 @@ public static class ComplicatedElementsAPI
         ErosionAtomsList.Add(new(ComplicatedElementsAtoms.Vaprorine, ComplicatedElementsAtoms.Quicklime));
 
     }
-
 }
-

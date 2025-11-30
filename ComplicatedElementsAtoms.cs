@@ -13,28 +13,28 @@ public static class ComplicatedElementsAtoms
             ID: 150, 
             modName: "ComplicatedElements",
             name: "Vaprorine",
-            pathToSymbol: "textures/atoms/alucia/ComplicatedElements/Normals/Ignistal_symbol",
+            pathToSymbol: "textures/atoms/alucia/ComplicatedElements/Normals/Vaprorine_symbol",
             pathToDiffuse: "textures/atoms/alucia/ComplicatedElements/Normals/Vaprorine_diffuse"
         );
         Pyrolite = Brimstone.API.CreateNormalAtom(
             ID: 151, 
             modName: "ComplicatedElements",
             name: "Pyrolite",
-            pathToSymbol: "textures/atoms/alucia/ComplicatedElements/Normals/Ignistal_symbol",
+            pathToSymbol: "textures/atoms/alucia/ComplicatedElements/Normals/Pyrolite_symbol",
             pathToDiffuse: "textures/atoms/alucia/ComplicatedElements/Normals/Pyrolite_diffuse"
         );
         Aerolith = Brimstone.API.CreateNormalAtom(
             ID: 152, 
             modName: "ComplicatedElements",
             name: "Aerolith",
-            pathToSymbol: "textures/atoms/alucia/ComplicatedElements/Normals/Ignistal_symbol",
+            pathToSymbol: "textures/atoms/alucia/ComplicatedElements/Normals/Aerolith_symbol",
             pathToDiffuse: "textures/atoms/alucia/ComplicatedElements/Normals/Aerolith_diffuse"
         );
         Mistaline = Brimstone.API.CreateNormalAtom(
             ID: 153, 
             modName: "ComplicatedElements",
             name: "Mistaline",
-            pathToSymbol: "textures/atoms/alucia/ComplicatedElements/Normals/Ignistal_symbol",
+            pathToSymbol: "textures/atoms/alucia/ComplicatedElements/Normals/Mistaline_symbol",
             pathToDiffuse: "textures/atoms/alucia/ComplicatedElements/Normals/Mistaline_diffuse"
         );
         Ignistal = Brimstone.API.CreateNormalAtom(
@@ -48,7 +48,7 @@ public static class ComplicatedElementsAtoms
             ID: 155, 
             modName: "ComplicatedElements",
             name: "Terramarine",
-            pathToSymbol: "textures/atoms/alucia/ComplicatedElements/Normals/Ignistal_symbol",
+            pathToSymbol: "textures/atoms/alucia/ComplicatedElements/Normals/Terramarine_symbol",
             pathToDiffuse: "textures/atoms/alucia/ComplicatedElements/Normals/Terramarine_diffuse"
         );
         Quicklime = Brimstone.API.CreateNormalAtom(

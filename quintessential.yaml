@@ -1,5 +1,5 @@
 Name: ComplicatedElements
-Version: 1.2.2
+Version: 1.2.3
 Icon: ce_icon
 Desc: Introduces the Glyph of Fusion, which allows you to fuse cardinal atoms together to get new crystal atoms based on their type.
 DLL: "ComplicatedElements.dll"
