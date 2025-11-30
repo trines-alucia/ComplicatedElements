@@ -26,7 +26,7 @@ public class ComplicatedElements : QuintessentialMod
         ComplicatedElementsAPI.AddTransmutations();
         ComplicatedElementsAPI.AddErosionAtoms();
         ComplicatedElementsParts.AddPartTypes();
-        QApi.AddPuzzlePermission("ComplicatedElements: fusion", "Glyph of Fusion", "Complicated Elements");
+        QApi.AddPuzzlePermission("ComplicatedElements: fusing", "Glyph of Fusion", "Complicated Elements");
         QApi.AddPuzzlePermission("ComplicatedElements: erosion", "Glyph of Erosion", "Complicated Elements");
         Quintessential.Logger.Log("Loading complete, yay!");
     }

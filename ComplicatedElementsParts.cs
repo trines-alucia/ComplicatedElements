@@ -13,7 +13,7 @@ using AtomTypes = class_175;
 
 internal static class ComplicatedElementsParts
 {
-    public static PartType Fusion;
+    public static PartType Fusing;
     public static PartType Erosion;
 
     public static Texture fusionBase = Brimstone.API.GetTexture("textures/parts/alucia/ComplicatedElements/fusion/base");
@@ -33,9 +33,9 @@ internal static class ComplicatedElementsParts
 
     public static void AddPartTypes()
     {
-        Fusion = new()
+        Fusing = new()
         {
-            field_1528 = "complicated-elements-fusion", // ID
+            field_1528 = "complicated-elements-fusing", // ID
             field_1529 = class_134.method_253("Glyph of Fusion", string.Empty), // Name
             field_1530 = class_134.method_253("The glyph of Fusion accepts two atoms and produces a crystal atom based on their types. ", string.Empty), // Description
             field_1531 = 20, // Cost
@@ -50,10 +50,10 @@ internal static class ComplicatedElementsParts
                 fusionInput2
             },
             field_1551 = Permissions.None,
-            CustomPermissionCheck = perms => perms.Contains("ComplicatedElements: fusion")
+            CustomPermissionCheck = perms => perms.Contains("ComplicatedElements: fusing")
         };
-        QApi.AddPartTypeToPanel(Fusion, false);
-        QApi.AddPartType(Fusion, static (part, pos, editor, renderer) =>
+        QApi.AddPartTypeToPanel(Fusing, false);
+        QApi.AddPartType(Fusing, static (part, pos, editor, renderer) =>
         {
             PartSimState pss = editor.method_507().method_481(part);
             class_236 uco = editor.method_1989(part, pos);
@@ -104,7 +104,7 @@ internal static class ComplicatedElementsParts
             foreach (Part part in parts)
             {
                 PartType type = part.method_1159();
-                if (type == Fusion) // alucia - me when i steal code from unstable elements
+                if (type == Fusing) // alucia - me when i steal code from unstable elements
                 {
                     if (sim.FindAtomRelative(part, new HexIndex(0, 0)).method_99(out AtomReference gold) //get atom references
                        && sim.FindAtomRelative(part, new(1, 0)).method_99(out AtomReference qs1))
