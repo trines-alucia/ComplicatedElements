@@ -61,8 +61,8 @@ public static class ComplicatedElementsAtoms
             ID: 132, 
             modName: "HalvingMetallurgy",
             name: "Quicklime",
-            pathToSymbol: "textures/atoms/erikhaag/HalvingMetallurgy/quicklime_symbol",
-            pathToDiffuse: "textures/atoms/erikhaag/HalvingMetallurgy/quicklime_diffuse"
+            pathToSymbol: "textures/atoms/erikhaag/HalvingMetallurgy/quicklime_symbol_old",
+            pathToDiffuse: "textures/atoms/erikhaag/HalvingMetallurgy/quicklime_diffuse_old"
         );
         QApi.AddAtomType(Vaprorine);
         QApi.AddAtomType(Pyrolite);
