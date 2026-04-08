@@ -1,4 +1,7 @@
-Complicated Elements is an indev Opus Magnum mod using Brimstone and Quintessential that focuses on adding new "crystal" atoms, and their corresponding glyphs.
+This project will not receive updates or developement, as I've lost all interested in it and Opus Magnum as whole. Sorry.
+
+
+Complicated Elements is an Opus Magnum mod using Brimstone and Quintessential that focuses on adding new "crystal" atoms, and their corresponding glyphs.
 
 This mod uses Brimstone and Quintessential!\
 https://github.com/ErikHaag/Brimstone \
